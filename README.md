@@ -1,6 +1,9 @@
 # DrBC
 Implementation of 'Learning to Identify High Betweenness Centrality Nodes from Scratch: A Novel Graph Neural Network Approach'(https://arxiv.org/pdf/1905.10418.pdf)
 
+![](https://drive.google.com/file/d/1ryBu-LYXZf5vgOjLan3TY8B-SoFeeOSJ/view?usp=sharing "Demo")
+
+
 # 1. build
 Get the source code, and install all the dependencies.
 (```)
