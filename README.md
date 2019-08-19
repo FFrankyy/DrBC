@@ -13,9 +13,9 @@ https://drive.google.com/file/d/1nh9XRyrqtKsaBDpLJri-SotpU3f713SX/view?usp=shari
 # 4.Reference
 Please cite our work if you find our code/paper is useful to your work.
 
-@article{fan2019learning,
-  title={Learning to Identify High Betweenness Centrality Nodes from Scratch: A Novel Graph Neural Network Approach},
-  author={Fan, Changjun and Zeng, Li and Ding, Yuhui and Chen, Muhao and Sun, Yizhou and Liu, Zhong},
-  journal={arXiv preprint arXiv:1905.10418},
-  year={2019}
+@article{fan2019learning,\\
+  title={Learning to Identify High Betweenness Centrality Nodes from Scratch: A Novel Graph Neural Network Approach},\\
+  author={Fan, Changjun and Zeng, Li and Ding, Yuhui and Chen, Muhao and Sun, Yizhou and Liu, Zhong},\\
+  journal={arXiv preprint arXiv:1905.10418},\\
+  year={2019}\\
 }
