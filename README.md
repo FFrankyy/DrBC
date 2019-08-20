@@ -16,7 +16,7 @@ This code folder is organized as follows:
     + /__lib__/__graph_struct.cpp__: Linked list data structure for sparse graphs.
     + /__lib__/__metrics.cpp__: functions for computing the metrics functions such as MeanSquareError, AvgError and RankTopK. 
     + /__lib__/__utils.cpp.cpp__: functions for computing the Betweenness functions.
-+ __visualize/__: contains the figures uesed in the paper
++ __visualize/__: contains the figures used in the paper
 
 
 # 1. Build
