@@ -1,5 +1,5 @@
 # DrBC
-This is a TensorFlow implementation of Learning to Identify High Betweenness Centrality Nodes from Scratch: A Novel Graph Neural Network Approach, as described in our paper:
+This is a TensorFlow implementation of 'Learning to Identify High Betweenness Centrality Nodes from Scratch: A Novel Graph Neural Network Approach', as described in our paper:
 
 Fan, Changjun and Zeng, Li and Ding, Yuhui and Chen, Muhao and Sun, Yizhou and Liu, Zhong[[Learning to Identify High Betweenness Centrality Nodes from Scratch: A Novel Graph Neural Network Approach]](http://arxiv.org/abs/1905.10418) (CIKM 2019)
 
@@ -45,10 +45,6 @@ For ABRA, we use the codes in the original paper.
 For node2vec, we use:
 ```
 https://github.com/snap-stanford/snap/tree/master/examples/node2vec
-```
-For graphwave, we use:
-```
-https://github.com/snap-stanford/graphwave
 ```
 
 # 4.Reference
