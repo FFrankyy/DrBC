@@ -10,12 +10,12 @@ This code folder is organized as follows:
 + __models/__: contains the model to obtain the results in the paper
 + __src/__: set of c source codes used in the paper
 + files:
-    + __lib/__PrepareBatchGraph.cpp__: functions for Prepare the batch graphs used in the tensorflow codes.
-    + __lib/__graph.cpp__: basic structure for graphs.
-    + __lib/__graphUtil.cpp__: functions for computing the collective influence functions.
-    + __lib/__graph_struct.cpp__: Linked list data structure for sparse graphs.
-    + __lib/__metrics.cpp__: functions for computing the metrics functions such as MeanSquareError,AvgError,MaxError,RankTopK. 
-    + __lib/__utils.cpp.cpp__: functions for computing the Betweenness functions.
+    + /__lib/__PrepareBatchGraph.cpp__: functions for Prepare the batch graphs used in the tensorflow codes.
+    + /__lib/__graph.cpp__: basic structure for graphs.
+    + /__lib/__graphUtil.cpp__: functions for computing the collective influence functions.
+    + /__lib/__graph_struct.cpp__: Linked list data structure for sparse graphs.
+    + /__lib/__metrics.cpp__: functions for computing the metrics functions such as MeanSquareError,AvgError,MaxError,RankTopK. 
+    + /__lib/__utils.cpp.cpp__: functions for computing the Betweenness functions.
 + __visualize/__: contains the figures uesed in the paper
 
 
