@@ -8,7 +8,7 @@ Implementation of 'Learning to Identify High Betweenness Centrality Nodes from S
 Get the source code, and install all the dependencies.
 ```
 git clone https://github.com/FFrankyy/DrBC.git
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 makefile
