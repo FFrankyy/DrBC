@@ -28,6 +28,7 @@ Here is the link to the dataset that was used in the paper:
 ```
 https://drive.google.com/file/d/1nh9XRyrqtKsaBDpLJri-SotpU3f713SX/view?usp=sharing
 ```
+The model to obtain the results in the paper is in the fold './models/'
 
 # 4.Baselines implementations
 For RK and k-BC, we use the following implementations:
