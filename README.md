@@ -46,6 +46,10 @@ For node2vec, we use:
 ```
 https://github.com/snap-stanford/snap/tree/master/examples/node2vec
 ```
+For graphwave, we use:
+```
+https://github.com/snap-stanford/graphwave
+```
 
 # 4.Reference
 Please cite our work if you find our code/paper is useful to your work.
