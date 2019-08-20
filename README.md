@@ -1,5 +1,6 @@
 # DrBC
-Implementation of 'Learning to Identify High Betweenness Centrality Nodes from Scratch: A Novel Graph Neural Network Approach' (CIKM'19)(https://arxiv.org/pdf/1905.10418.pdf)
+This is a TensorFlow implementation of Graph Convolutional Networks for the task of (semi-supervised) classification of nodes in a graph, as described in our paper:
+Fan, Changjun and Zeng, Li and Ding, Yuhui and Chen, Muhao and Sun, Yizhou and Liu, Zhong[Learning to Identify High Betweenness Centrality Nodes from Scratch: A Novel Graph Neural Network Approach](http://arxiv.org/abs/1905.10418) (CIKM 2019)
 
 ![](./visualize/Figure_demo.jpg "Demo")
 
