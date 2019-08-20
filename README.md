@@ -1,7 +1,7 @@
 # DrBC
 This is a TensorFlow implementation of Learning to Identify High Betweenness Centrality Nodes from Scratch: A Novel Graph Neural Network Approach, as described in our paper:
 
-Fan, Changjun and Zeng, Li and Ding, Yuhui and Chen, Muhao and Sun, Yizhou and Liu, Zhong[Learning to Identify High Betweenness Centrality Nodes from Scratch: A Novel Graph Neural Network Approach](http://arxiv.org/abs/1905.10418) (CIKM 2019)
+Fan, Changjun and Zeng, Li and Ding, Yuhui and Chen, Muhao and Sun, Yizhou and Liu, Zhong[[Learning to Identify High Betweenness Centrality Nodes from Scratch: A Novel Graph Neural Network Approach]](http://arxiv.org/abs/1905.10418) (CIKM 2019)
 
 ![](./visualize/Figure_demo.jpg "Demo")
 
