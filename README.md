@@ -11,13 +11,13 @@ git clone https://github.com/FFrankyy/DrBC.git
 pip install -r requirements.txt
 ```
 
-makefile
+Makefile
 ```
 python setup.py build_ext -i
 ```
 
 # 2.Training
-adjust hyper-parameters in BetLearn.py, and run the following to train the model
+Adjust hyper-parameters in BetLearn.py, and run the following to train the model
 ```
 python start.py
 ```
@@ -30,13 +30,18 @@ https://drive.google.com/file/d/1nh9XRyrqtKsaBDpLJri-SotpU3f713SX/view?usp=shari
 ```
 
 # 4.Baselines implementations
-For ABRA, RK and k-BC, we use the following implementations:
+For RK and k-BC, we use the following implementations:
 ```
 https://github.com/ecrc/BeBeCA
 ```
-For KADABRA, we use the following implementations:
+For KADABRA, we use:
 ```
 https://github.com/natema/kadabra
+```
+For ABRA, we use the codes in the original paper.
+For node2vec, we use:
+```
+https://github.com/snap-stanford/snap/tree/master/examples/node2vec
 ```
 
 # 4.Reference
