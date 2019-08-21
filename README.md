@@ -18,7 +18,7 @@ This code folder is organized as follows:
     + /__src__/__lib__/__metrics.cpp__: functions for computing the metrics functions such as MeanSquareError, AvgError and RankTopK. 
     + /__src__/__lib__/__utils.cpp__: functions for computing the Betweenness functions.
 
-In order to make our program more efficient,we write C extensions for Python based on [Cython](https://cython.org/) which is an optimising static compiler for Python programming language, and the interface for c codes are listed as follows:
+In order to make our program more efficient,we write C extensions for Python based on [Cython](https://cython.org/) which is an optimising static compiler for Python programming language, and the bindings files for c codes are listed as follows:
 +  cython files:
     + /__PrepareBatchGraph.pyx__: Cython bindings of PrepareBatchGraph.cpp.
     + /__PrepareBatchGraph.pxd__: Header file of PrepareBatchGraph.pyx.
