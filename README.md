@@ -9,7 +9,6 @@ This code folder is organized as follows:
 
 + __models/__: contains the model to obtain the results in the paper
 + __src/__: set of c source codes used in the paper
-+ __visualize/__: contains the figures used in the paper
 + files:
     + /__src__/__lib__/__PrepareBatchGraph.cpp__: functions for Prepare the batch graphs used in the tensorflow codes.
     + /__src__/__lib__/__graph.cpp__: basic structure for graphs.
@@ -17,6 +16,7 @@ This code folder is organized as follows:
     + /__src__/__lib__/__graph_struct.cpp__: Linked list data structure for sparse graphs.
     + /__src__/__lib__/__metrics.cpp__: functions for computing the metrics functions such as MeanSquareError, AvgError and RankTopK. 
     + /__src__/__lib__/__utils.cpp__: functions for computing the Betweenness functions.
++ __visualize/__: contains the figures used in the paper
 
 In order to make our program more efficient,we write C extensions for Python based on [Cython](https://cython.org/) which is an optimising static compiler for Python programming language, and the bindings files for c codes are listed as follows:
 +  cython files:
