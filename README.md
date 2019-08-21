@@ -9,15 +9,29 @@ This code folder is organized as follows:
 
 + __models/__: contains the model to obtain the results in the paper
 + __src/__: set of c source codes used in the paper
-+ files:
-    + /__lib__/__PrepareBatchGraph.cpp__: functions for Prepare the batch graphs used in the tensorflow codes.
-    + /__lib__/__graph.cpp__: basic structure for graphs.
-    + /__lib__/__graphUtil.cpp__: functions for computing the collective influence functions.
-    + /__lib__/__graph_struct.cpp__: Linked list data structure for sparse graphs.
-    + /__lib__/__metrics.cpp__: functions for computing the metrics functions such as MeanSquareError, AvgError and RankTopK. 
-    + /__lib__/__utils.cpp.cpp__: functions for computing the Betweenness functions.
 + __visualize/__: contains the figures used in the paper
++ files:
+    + /__src__/__lib__/__PrepareBatchGraph.cpp__: functions for Prepare the batch graphs used in the tensorflow codes.
+    + /__src__/__lib__/__graph.cpp__: basic structure for graphs.
+    + /__src__/__lib__/__graphUtil.cpp__: functions for computing the collective influence functions.
+    + /__src__/__lib__/__graph_struct.cpp__: Linked list data structure for sparse graphs.
+    + /__src__/__lib__/__metrics.cpp__: functions for computing the metrics functions such as MeanSquareError, AvgError and RankTopK. 
+    + /__src__/__lib__/__utils.cpp__: functions for computing the Betweenness functions.
 
+In order to make our program more efficient,we write C extensions for Python based on [Cython](https://cython.org/) which is an optimising static compiler for Python programming language, and the interface for c codes are listed as follows:
++  cython files:
+    + /__PrepareBatchGraph.pyx__: Cython bindings of PrepareBatchGraph.cpp.
+    + /__PrepareBatchGraph.pxd__: Header file of PrepareBatchGraph.pyx.
+    + /__graph.pyx__: Cython bindings of graph.cpp.
+    + /__graph.pxd__: Header file of graph.pyx.
+    + /__graphUtil.pyx__: Cython bindings of graphUtil.cpp.
+    + /__graphUtil.pxd__: Header file of graphUtil.pyx.
+    + /__graph_struct.pyx__: Cython bindings of graph_struct.cpp.
+    + /__graph_struct.pxd__: header file of graph_struct.pyx.  
+    + /__metrics.pyx__: Cython bindings of metrics.cpp.
+    + /__metrics.pxd__: Header file of metrics.pyx.   
+    + /__utils.pyx__: Cython bindings of utils.cpp.
+    + /__utils.pxd__: Header file of utils.pyx. 
 
 # 1. Build
 Get the source code, and install all the dependencies.
