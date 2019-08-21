@@ -9,7 +9,7 @@ This code folder is organized as follows:
 
 + __models/__: contains the model to obtain the results in the paper
 + __src/__: set of c source codes used in the paper
-+ files:
++ c source files:
     + /__src__/__lib__/__PrepareBatchGraph.cpp__: functions for Prepare the batch graphs used in the tensorflow codes.
     + /__src__/__lib__/__graph.cpp__: basic structure for graphs.
     + /__src__/__lib__/__graphUtil.cpp__: functions for computing the collective influence functions.
