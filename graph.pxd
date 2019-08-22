@@ -1,8 +1,7 @@
 '''
-file:graph.pxd 类graph的定义文件对应graph.h
+file:graph.pxd 
 '''
 
-#Cython已经编译了C++的std模板库，位置在~/Cython/Includes/lincpp/
 from libcpp.vector cimport vector
 from libcpp.memory cimport shared_ptr
 from libcpp.set cimport set
