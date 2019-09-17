@@ -5,20 +5,20 @@ Fan, Changjun and Zeng, Li and Ding, Yuhui and Chen, Muhao and Sun, Yizhou and L
 
 ![](./visualize/Figure_demo.jpg "Demo")
 
-This code folder is organized as follows:
+The code folder is organized as follows:
 
 + __models/__: contains the model to obtain the results in the paper
 + __src/__: set of c source codes used in the paper
 + c source files:
-    + /__src__/__lib__/__PrepareBatchGraph.cpp__: functions for Prepare the batch graphs used in the tensorflow codes.
+    + /__src__/__lib__/__PrepareBatchGraph.cpp__: Prepare the batch graphs used in the tensorflow codes.
     + /__src__/__lib__/__graph.cpp__: basic structure for graphs.
-    + /__src__/__lib__/__graphUtil.cpp__: functions for computing the collective influence functions.
+    + /__src__/__lib__/__graphUtil.cpp__: Compute the collective influence functions.
     + /__src__/__lib__/__graph_struct.cpp__: Linked list data structure for sparse graphs.
-    + /__src__/__lib__/__metrics.cpp__: functions for computing the metrics functions such as MeanSquareError, AvgError and RankTopK. 
-    + /__src__/__lib__/__utils.cpp__: functions for computing the Betweenness functions.
+    + /__src__/__lib__/__metrics.cpp__: Compute the metrics functions such as topk accuracy and kendal tau distance. 
+    + /__src__/__lib__/__utils.cpp__: Compute nodes' betweenness centrality.
 + __visualize/__: contains the figures used in the paper
 
-In order to make our program more efficient,we write C extensions for Python based on [Cython](https://cython.org/) which is an optimising static compiler for Python programming language, and the bindings files for c codes are listed as follows:
+In order to make our program be more efficient,we write C extensions for Python based on [Cython](https://cython.org/) which is an optimized static compiler for Python programming language, the binding files for C codes are listed as follows:
 +  cython files:
     + /__PrepareBatchGraph.pyx__: Cython bindings of PrepareBatchGraph.cpp.
     + /__PrepareBatchGraph.pxd__: Header file of PrepareBatchGraph.pyx.
